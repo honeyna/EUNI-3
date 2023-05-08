@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은이세끼</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <script src="./js/product.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="left"></div>
+            <div class="logo_wrap">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="./images/logo.jpg" alt="">
+                    </a>
+                </h1>
+            </div>
+            <div class="tnb">
+                <ul>
+                    <li>
+                        <a href="login.html">
+                            <img src="./images/ico-login.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/ico-user.svg" alt="">
+                        </a>
+                        <div class="user_wrap">
+                            <a href="#">주문/배송조회</a>
+                            <a href="#">고객센터</a>
+                            <a href="#">회원정보</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/ico-shopping.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <div class="gnb">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#camping">
+                                캠핑 프렌즈
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#meal_kit">
+                                전참시 밀키트
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#best">
+                                은이세끼 주간 BEST
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#all">
+                                전체상품
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#review">
+                                베스트리뷰 상품
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="slide slide_wrap">
+            <div class="slide_item item1">
+                <img src="./images/slide_01.jpg" alt="">
+            </div>
+            <div class="slide_item item2">
+                <img src="./images/slide_02.jpg" alt="">
+            </div>
+            <div class="slide_item item3">
+                <img src="./images/slide_03.jpg" alt="">
+            </div>
+            <div class="slide_item item4">
+                <img src="./images/slide_04.jpg" alt="">
+            </div>
+            <div class="slide_item item5">
+                <img src="./images/slide_05.jpg" alt="">
+            </div>
+            <div class="slide_button_wrap">
+                <div class="slide_prev_button slide_button">
+                    <img src="./images/main_left.png" alt="">
+                </div>
+                <div class="slide_next_button slide_button">
+                    <img src="./images/main_right.png" alt="">
+                </div>
+            </div>
+            <ul class="slide_pagination"></ul>
+        </div>
+        <div class="camping" id="camping">
+            <div class="tit">
+                <strong>캠핑 프렌즈🍖</strong>
+            </div>
+            <div class="item_wrap">
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/camping_1.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            꽉찬 마블링 꽃갈비로만 만든 우대갈비 홍김동전 캠핑 바베큐 전참시 손님접대용 캠마카세
+                        </p>
+                        <div class="discount_price">
+                            <strong>76,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">36%</div>
+                            <div class="price">
+                                <p>48,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#갈비</span>
+                            <span>#꽃갈비</span>
+                            <span>#수입소고기</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/camping_2.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            캠핑음식 모듬 수제꼬치 구이 닭꼬치 파닥 베이컨 16종
+                        </p>
+                        <div class="discount_price">
+                            <strong>20,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">71%</div>
+                            <div class="price">
+                                <p>5,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#꼬치</span>
+                            <span>#캠핑음식</span>
+                            <span>#캠핑음식캥핑요리</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/camping_3.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            [선착순 100개 칼국수 증정] 알듬뿍 냉장 전참시 알탕 해산물 캠핑 밀키트 술안주 3~4인분 이상
+                        </p>
+                        <div class="discount_price">
+                            <strong>35,000</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">35%</div>
+                            <div class="price">
+                                <p>22,500<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#체력증진</span>
+                            <span>#캠핑요리</span>
+                            <span>#캠핑음식</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/camping_4.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            양고기 양갈비 프렌치랙 숄더랙 냉동 300g
+                        </p>
+                        <div class="discount_price">
+                            <strong>63,800</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">68%</div>
+                            <div class="price">
+                                <p>19,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#캠핑고기</span>
+                            <span>#캠핑요리</span>
+                            <span>#캠핑음식</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="meal_kit" id="meal_kit">
+            <div class="tit">
+                <strong>👀 전참시 밀키트 🍳</strong>
+            </div>
+            <div class="item_wrap">
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="https://shop-phinf.pstatic.net/20230227_223/1677468794122H787x_JPEG/78604636830836295_303039859.jpg?type=f296_240" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            (은이세끼) 송은이의 대파송송 국물 떡볶이 밀키트 (2인분)
+                        </p>
+                        <div class="discount_price_empty"></div>
+                        <div class="price_wrap">
+                            <div class="price">
+                                <p>48,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#떡볶이밀키트</span>
+                            <span>#떡볶이소스</span>
+                            <span>#떡볶이양념</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="https://shop-phinf.pstatic.net/20230222_298/1677027742829hkuHR_JPEG/78163638547196153_1610216070.jpg?type=f296_240" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            (은이세끼) 송은이의 대파송송 국물 떡볶이 전참시 밀키트 (3팩, 6인분)
+                        </p>
+                        <div class="discount_price">
+                            <strong>20,400</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">2%</div>
+                            <div class="price">
+                                <p>19,800<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#떡볶이밀키트</span>
+                            <span>#떡볶이소스</span>
+                            <span>#떡볶이양념</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="https://shop-phinf.pstatic.net/20221209_253/1670578945868JVAwp_JPEG/71714729525924966_705509236.jpg?type=f296_240" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            셰프 수제소스 파스타 2인분 5종 쿠킹박스 전참시 밀키트 홈파티 캠핑 음식
+                        </p>
+                        <div class="discount_price">
+                            <strong>17,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">22%</div>
+                            <div class="price">
+                                <p>13,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#푸짐한</span>
+                            <span>#간단요리</span>
+                            <span>#간편하게</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="https://shop-phinf.pstatic.net/20220609_275/1654742037913ET63k_JPEG/55877864870424413_1254032769.jpg?type=f296_240" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            꽉찬 마블링 꽃갈비로만 만든 우대갈비 홍김동전 캠핑 바베큐 전참시 손님접대용 캠마카세
+                        </p>
+                        <div class="discount_price">
+                            <strong>76,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">36%</div>
+                            <div class="price">
+                                <p>48,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#갈비</span>
+                            <span>#꽃갈비</span>
+                            <span>#수입소고기</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="https://shop-phinf.pstatic.net/20220908_91/1662621292612nhfPd_JPEG/63757127436359070_1121437443.jpg?type=f296_240" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            [선착순 100개 칼국수 증정] 알듬뿍 냉장 전참시 알탕 해산물 캠핑 밀키트 술안주 3~4인분 이상
+                        </p>
+                        <div class="discount_price">
+                            <strong>35,000</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">35%</div>
+                            <div class="price">
+                                <p>22,500<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#체력증진</span>
+                            <span>#캠핑요리</span>
+                            <span>#캠핑음식</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="best" id="best">
+            <div class="tit">
+                <strong>🏅은이세끼 주간 BEST</strong>
+            </div>
+            <div class="item_wrap">
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/meal_kit_01.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ranking">
+                            <div class="num">1</div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            (은이세끼) 송은이의 대파송송 국물 떡볶이 밀키트 (2인분)
+                        </p>
+                        <div class="discount_price_empty"></div>
+                        <div class="price_wrap">
+                            <div class="price">
+                                <p>48,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#떡볶이밀키트</span>
+                            <span>#떡볶이소스</span>
+                            <span>#떡볶이양념</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/meal_kit_02.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ranking">
+                            <div class="num">2</div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            (은이세끼) 송은이의 대파송송 국물 떡볶이 전참시 밀키트 (3팩, 6인분)
+                        </p>
+                        <div class="discount_price">
+                            <strong>20,400</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">2%</div>
+                            <div class="price">
+                                <p>19,800<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#떡볶이밀키트</span>
+                            <span>#떡볶이소스</span>
+                            <span>#떡볶이양념</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/meal_kit_03.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ranking">
+                            <div class="num">3</div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            셰프 수제소스 파스타 2인분 5종 쿠킹박스 전참시 밀키트 홈파티 캠핑 음식
+                        </p>
+                        <div class="discount_price">
+                            <strong>17,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">22%</div>
+                            <div class="price">
+                                <p>13,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#푸짐한</span>
+                            <span>#간단요리</span>
+                            <span>#간편하게</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <a href="#">
+                <img src="./images/banner.jpg" alt="banner">
+            </a>
+        </div>
+        <div class="all" id="all">
+            <div class="tit">
+                <strong>전체상품</strong>
+            </div>
+            <div class="btn-container">
+                <!-- <button class="filter-btn" type="button" data-id="all">전체</button>
+                <button class="filter-btn" type="button" data-id="homeparty">🥂멋진홈파티</button>
+                <button class="filter-btn" type="button" data-id="meal">😘뚝딱한끼제안</button>
+                <button class="filter-btn" type="button" data-id="camping">🍗캠핑스페셜</button>
+                <button class="filter-btn" type="button" data-id="soup">🍲따끈한국물</button>
+                <button class="filter-btn" type="button" data-id="fresh">🐟신선별미</button>
+                <button class="filter-btn" type="button" data-id="beverage">🍊음료&계절간식</button>
+                <button class="filter-btn" type="button" data-id="gift">🎁선물세트</button> -->
+            </div>
+            <div class="item_wrap">
+                <!-- <div class="item">
+                    <div class="product_info">
+                        <div class="img">
+                            <img src="./images/camping_1.jpg" alt="">
+                        </div>
+                        <div class="item_thumb">
+                            <div class="inner">
+                                <a href="#">
+                                    <img src="./images/ico_newpage.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./images/ico_cart.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <p class="item_tit">
+                            꽉찬 마블링 꽃갈비로만 만든 우대갈비 홍김동전 캠핑 바베큐 전참시 손님접대용 캠마카세
+                        </p>
+                        <div class="discount_price">
+                            <strong>76,900</strong>
+                            원
+                        </div>
+                        <div class="price_wrap">
+                            <div class="dc">36%</div>
+                            <div class="price">
+                                <p>48,900<span>원</span></p>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <span>#갈비</span>
+                            <span>#꽃갈비</span>
+                            <span>#수입소고기</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="review" id="review">
+            <div class="tit">
+                <strong>베스트리뷰 상품</strong>
+            </div>
+            <div class="review-con">
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_1.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    팟캐스트듣자마자 바로 구매했어요 은이세끼는 업데이트만을 기다려요♡ 그런데 제주 감귤이라니!! 저희집에 과일킬러가 사는데 26개월 살아놓고 입맛이까다로워요 근데 이 귤 정말 맛있게 잘 먹어요 아기가 잘 먹으니 엄마로서 그저 너무 좋네요♡ 일단 포장보고 놀랬어요 박스포장인데 뾱뾱이로 엄청 싸서보내셨더라구요 하나도 무르지않고 안전하게 왔어요 아기가 너무 잘먹어서 과일 안좋아하는 제가 너무 궁금해서 한번 먹어봤는데 신맛 전혀없고 새콤달콤도 아니구 그냥 완전달콤! 진심 정말 맛있어요 아기가 3개먹고 더달래요 금방 먹을것 같으니 대표님 5키로짜리도 만들어주세요!♡♡
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">wool***</div>
+                                <div class="block"></div>
+                                <div class="date">2023. 01. 17</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_2.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    우와..👏👏👏역시 믿고 먹는 은이세끼🥰선물하기전에 먼저 먹어보고 선물하려고.. 주문해봤는데세상에😮 배송부터 포장상태까지 완전 굿뜨굿뜨👍👍👍이것보다 완벽한 명절선물은 없을거 같아용!!!맛이면 맛, 포장상태면 상태 뭐 하나 빠지는게 없네용!!! 받자마자 진짜 밥 한공기 뚝딱했어용😍간장새우장은 달지도 짜지도 않고,딱 알맞는 간에 아주 실한 새우가 듬뿍 들었구요!양념새우장은 세상에…🥹이게 무슨 양념이래요…?그냥 양념에 밥만 비벼 먹어도 맛있는데…새우랑 곁들여 먹으니..정말 대 존맛…😆!!!주변에 소중한 사람들에게 선물하고,저도 다시 재구매 해야겠어용!!!ㅎㅎ저렴한 가격에 이런 좋은 상품 구매할 수 있게해주셔서 감사합니당!!!은이세끼 대박나세용🥳!!!
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">thdg***</div>
+                                <div class="block"></div>
+                                <div class="date">2023. 01. 11</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="review-con">
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_3.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    꼽사리 캠핑 가게되서 급하게 주문했습니다ㅋㅋ 사진이 어두워서 잘 나오진 않아서 아쉽지만.. 너무 맛있게 잘 먹었습니다. 집에 마침 배추가 있어서 저는 배추 몇장만 더 추가해서 넣었어요. 사실 이미 고기먹고 2차전으로 먹은거라 양은 아주아주 충분했지만 (3명) 두명이 그냥 식사로 먹기에도 충분할것 같아요:-)  슴슴+달달하니 육수도 넘 맛있고 호로록 먹는맛이 넘 좋았어요. 그리고 왠지.. 뭔가 한겨울에 먹으면 훨씸 맛있을것 같아요ㅋㅋ
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">sp***</div>
+                                <div class="block"></div>
+                                <div class="date">2022. 10. 30</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_4.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    진짜 맛있어요... 조리법이 너무 쉬워서 약간 읭? 했는데 한입 먹고 감탄했슴다.. 홈파티 음식으로도 좋고 그냥 평소에 좀 맛있는 거 먹고 싶을 때도 좋고!!! 조만간 또 시켜먹으려구요..! 양도 푸짐해서 성인기준 1.5~2인분정도 되는 거 같아요!
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">alex***</div>
+                                <div class="block"></div>
+                                <div class="date">2023. 02. 24</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="review-con">
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_5.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    은이세끼 8번째 구매에요 ㅎ 떡은 처음이라 반신반의했지만, 은이세끼로 실패한 적이 없어서 믿어보기로 하고 가족들에게 보내줬습니다. 어머니, 아버지, 할머니, 동생들 모두 맛있다고 합니다. 특히나 카스테라떡은 쉽게 사기도 어렵지만, 서울에 있는 떡집들에 있는 비싸게파는 카스테라 떡보다도 훨씬 맛있다고 하네요.  벌써 어머니가 추석에 주변사람들한테 보내주시겠다고 구입처 알려달라 하셨어요 ㅎ맛있게 먹을께요!
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">kim0***</div>
+                                <div class="block"></div>
+                                <div class="date">2023. 01. 20</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="review-info">
+                    <a href="#">
+                        <div class="review-left">
+                            <img src="./images/reveiw_6.jpg" alt="">
+                        </div>
+                        <div class="review-right">
+                            <div class="reveiw-best">
+                                <img src="./images/quote_left.png" alt="quote" class="quote left">
+                                <p>
+                                    열자마자 토핑 한가득 !! 제가 선택한 주문건은 🏷오독 카라멜 파운드케이크 였어요 ㅎㅎ. 케이크 박스를 열자마자 달콤 고소한 향기의 유혹에 못이기고 커알못이라 우유 한잔 따라서 한조각만 먹는다는게 .ㅋ네조각 먹어버렸지모에요...맛있는건 앉은자리에서 싹 헤치워버리는 .. 나자신 ... 반성해...참자 해노코... 맛있게먹으면 0칼로리..💗 결국 저녁간식을 마지막으로, 카라멜 파운드케이크는 제 뱃속으로 슝슝 ..ㅎㅎ 
+요즘 카페 가도 그닥 맛있는 파운드 케이크는 안팔아서 너무 아쉬웠는데 집에서 이렇게 고급지고 맛있는 견과류 팍팍 아낌없이 얹어진 !! 파운드케이크를 먹을수 있어서 너무 좋았지모에요 ?? 🏷 손님방문시 한접시, 집들이선물로도 좋을것같다는 개적인 생각이 들었습니당. 재구매 의사 💗💗💗💗💗 하트다섯개요.극강의 단맛이아니라 고급진 은은한 맛이라 질리지가 않았답니당 ㅎㅎ !!
+                                </p>
+                                <img src="./images/quote_right.png" alt="quote" class="quote right">
+                            </div>
+                            <div class="customer">
+                                <div class="id">wndm***</div>
+                                <div class="block"></div>
+                                <div class="date">2023. 02. 03</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-cons">
+                <div class="footer-link">
+                    <img src="./images/sub-logo.jpg" alt="">
+                    <a href="#">회사소개</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">서비스 이용약관</a>
+                    <a href="#">마케팅 정보수신</a>
+                </div>
+                <div class="footer-company">
+                    <dl>
+                        <dt><strong>대표</strong></dt>
+                        <dd>송은이</dd>
+                        <dt><strong>사업자등록번호</strong></dt>
+                        <dd>3328802470</dd>
+                    </dl>
+                    <dl>
+                        <dt><strong>이메일</strong></dt>
+                        <dd>shovo_euni3@naver.com</dd>
+                        <dt><strong>통신판매업번호</strong></dt>
+                        <dd>2022-서울마포-1507</dd>
+                    </dl>
+                    <dl>
+                        <dt>Copyright EUNI MEALS. All Rights Reserved.</dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
